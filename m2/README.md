@@ -15,8 +15,8 @@ Commands used:
 1. Use Service Account Credentials:
 ```
 gcloud iam service-accounts create prod-svc
-gcloud projects add-iam-policy-binding carved-rock-prod --member="serviceAccount:prod-svc@carved-rock-prod.iam.gserviceaccount.com" --role="roles/owner"
-gcloud iam service-accounts keys create prod-svc-creds.json --iam-account=prod-svc@carved-rock-prod.iam.gserviceaccount.com
+gcloud projects add-iam-policy-binding massu-rock-prod --member="serviceAccount:prod-svc@massu-prod.iam.gserviceaccount.com" --role="roles/owner"
+gcloud iam service-accounts keys create prod-svc-creds.json --iam-account=prod-svc@massu-prod.iam.gserviceaccount.com
 ```
 
 1. Set GCP Credentials:

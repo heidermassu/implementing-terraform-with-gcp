@@ -10,14 +10,13 @@ terraform {
 }
 
 provider "google" {
-  credentials = file("${path.module}/prod-svc-creds.json")
-  project     = "carved-rock-prod"
+  project     = "massu-prod"
   region      = "us-east1"
   zone        = "us-east1-b"
 }
 
 provider "google-beta" {
-  project = "carved-rock-dev"
+  project = "massu-dev"
   region  = "us-east1"
   zone    = "us-east1-b"
 }

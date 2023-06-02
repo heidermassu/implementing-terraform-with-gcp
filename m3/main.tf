@@ -29,6 +29,6 @@ resource "random_pet" "suffix" {
 
 # Delete this part for demo
 resource "google_project_service" "gcp_services" {
-  project = "carved-rock-prod"
+  project = "massu-prod"
   service = "run.googleapis.com"
 }

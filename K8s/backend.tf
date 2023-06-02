@@ -2,6 +2,6 @@
 terraform {
   backend "gcs" {
     bucket = "tfstategcpupskilling"
-prefix = "statetest/state.tfstate"
+    prefix = "statetest"
   }
 }
